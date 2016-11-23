@@ -84,6 +84,8 @@ static HLBLEManager *instance = nil;
     //2.先取消之前连接的蓝牙外设
     if (_connectedPerpheral) {
         [_centralManager cancelPeripheralConnection:_connectedPerpheral];
+        _connectedPerpheral = nil;
+        peripheral.delegate = nil;
     }
     
     //3.开始连接新的蓝牙外设

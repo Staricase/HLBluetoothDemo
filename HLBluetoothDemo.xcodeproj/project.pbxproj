@@ -235,6 +235,12 @@
 				TargetAttributes = {
 					B905F87D1CD0B2C0003D26CB = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = QGKWR4BM5D;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -409,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QGKWR4BM5D;
 				INFOPLIST_FILE = HLBluetoothDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chiyun.HLBluetoothDemo;
@@ -420,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QGKWR4BM5D;
 				INFOPLIST_FILE = HLBluetoothDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chiyun.HLBluetoothDemo;

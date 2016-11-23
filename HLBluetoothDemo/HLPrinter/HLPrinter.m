@@ -405,6 +405,7 @@
         footerInfo = @"谢谢惠顾，欢迎下次光临！";
     }
     [self appendText:footerInfo alignment:HLTextAlignmentCenter];
+    [self appendSeperatorLine];
 }
 
 - (NSData *)getFinalData
